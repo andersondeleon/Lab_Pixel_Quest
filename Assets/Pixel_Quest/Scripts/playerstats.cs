@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 public class playerstats : MonoBehaviour
 {
     public string nextlevel = "scene_2";
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+    private void OnTriggerEnter2D(Collider2D collision) { 
         Debug.Log("hit");
         switch (collision.tag)
         {
